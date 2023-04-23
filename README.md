@@ -2,6 +2,14 @@
 
 Transcribe Youtube videos (or any mp3), summarize with chatGPT and save Markdown file formatted for Obsidian.
 
+## Performance tests
+Performance tests run on MacBook Pro M2
+|lang|whisper_model|video_duration, min|size_mp3, Mb|processing, sec|
+|---|---|---|---|------|
+|en|small.en|60|87|268|
+|en|small.en|120|140|574|
+|ru|medium|60|76|797|
+
 ## Installation
 Script `install.sh` works for macOS only. Run
 ```bash
